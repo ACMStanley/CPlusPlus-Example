@@ -1,12 +1,6 @@
 //Author: Aiden Stanley
 //Purpose: A class to represent 3D Vectors and provide basic mathamatical operations on them
 
-//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-//		THIS IS CODE IS REUSED FROM MY SUBMISSION TO COURSEWORK ONE
-
-//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
 #include "Vector3D.h"
 #include <math.h>
 #include <stdexcept>
