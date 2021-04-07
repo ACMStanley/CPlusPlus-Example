@@ -1,12 +1,6 @@
 //Author: Aiden Stanley
 //Purpose: Header file for a class to represent 3D Vectors and provide basica mathamatical operations on them
 
-//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-//		THIS IS CODE IS REUSED FROM MY SUBMISSION TO COURSEWORK ONE
-
-//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
 #pragma once
 #include <iostream>
 
@@ -19,7 +13,7 @@ public:
 	Vector3D(float x, float y, float z);		//standard 3D Vector constructor
 
 
-	//MEMBER FUNCTIONS	- Vectors are passed by reference to remove computational cost of creating a copy (They are only read from, so it is unnessary pass by value)
+	//MEMBER FUNCTIONS
 
 	float getX() const;
 	float getY() const;
@@ -53,9 +47,9 @@ public:
 	
 
 private:
-	float x;									//floats used instead of doubles, as this reduces memory cost by a factor 2,
-	float y;									//while still being sufficiently accurate to represent points in space in 
-	float z;									//a game
+	float x;
+	float y;
+	float z;
 };
 
 

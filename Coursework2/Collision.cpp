@@ -107,12 +107,3 @@ bool Collision::checkCollision(const Shape* s1, const Shape* s2){			//deciphers 
 		shapeTypeNotResolved();
 	}
 }
-
-/*To extand functionality to a 3D game space, the same algorithm for circle-circle collision can be used for sphere,sphere. In fact, in my implementation 3D vectors are being used;
-z is just set to 0 so that the two circles are on the same 2 dimensional plane. There is no difference between checking the collision bewteen two circles and two spheres if they are on the same plane. 
-If the circles were able to be initialised with a vector3D position with 3 components then the function would still work, beceause the radius doesnt change with respect to direction and the distance would be calculated in the same way
-
-For cube-cube collsion, another 2 checks would needed to be added after line 35, to check that the front and back of each cube havent passed eachother. in fact implementing this check would still allow the collision check
-to happen for 2D squares correctly
-
-*/
